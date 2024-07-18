@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    background: #F5F5F7;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: #000000;
+    font-size: 37px;
+    line-height: 80px;
+    padding: 0 70px;
+}
+
+label.logo img {
+    height: 72px;
+    margin-top: 3px;
+}
+
+label.logo:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #1D1D1F;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #515152;
+    transition: 0.1s ease-in;
+}
+
+.checkbtn {
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    margin-top: 7px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.menu {
+    height: 2rem;
+    width: 2rem;
+}
+
+.log-butt {
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #1D1D1F;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.log-butt:hover {
+    background-color: #454545;
+    transition: 0.2s ease-in;
+}
+
+.log-butt a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        padding-left: 23px;
+    }
+
+    label.logo img {
+        height: 4rem;
+        width: 9rem;
+        margin-top: 7px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .log-butt {
+        height: 2rem;
+        width: 4.2rem;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 15rem;
+        height: 100vh;
+        background-color: #f0f0f0;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: 0.5s all;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.check {
+        background: none;
+        color: black;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .log-butt {
+        margin-left: 0rem;
+        height: 3rem;
+        width: 5rem;
+        font-weight: bold;
+        font-size: 21px;
+        background-color: #1D1D1F;
+        color: #FFFFFF;
+    }
+
+    .log-butt:hover {
+        background-color: #515152;
+        color: #FFFFFF;
+    }
+}
