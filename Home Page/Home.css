@@ -8,9 +8,16 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: #454545;
+    color: #FFFFFF;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
 }
+
+/* Navbar */
 
 nav {
     background: #F5F5F7;
