@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Fashion Forte</title>
     <link rel="stylesheet" href="Home.css">
-    <link rel="stylesheet" href="Home.js">
     <link rel="icon" type="image/x-icon" sizes="16x16" href="/Home Page/Favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -37,11 +36,17 @@
     <!-- Banner-Image -->
 
     <div class="banner-image">
-        <img src="/Images/Banner Image -1.png" alt="Banner-Image">
-        <i class="fa-solid fa-chevron-left left-arrow"></i>
-        <i class="fa-solid fa-chevron-right right-arrow"></i>
+        <div class="image-container">
+            <img id="banner-img-1" src="/Images/Banner Image -1.png" alt="Banner-Image" class="active">
+            <img id="banner-img-2" src="/Images/Banner Image -2.png" alt="Banner-Image">
+            <img id="banner-img-3" src="/Images/Banner Image -3.png" alt="Banner-Image">
+            <img id="banner-img-3" src="/Images/Banner Image -4.png" alt="Banner-Image">
+        </div>
+        <i class="fa-solid fa-chevron-left left-arrow" onclick="previousImage()"></i>
+        <i class="fa-solid fa-chevron-right right-arrow" onclick="nextImage()"></i>
     </div>
 
+    <script src="Home.js"></script>
 </body>
 
 </html>
