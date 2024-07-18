@@ -190,7 +190,7 @@ a:hover {
 
 .banner-image {
     position: relative;
-    margin-top: 80px;
+    margin-top: 65px;
     overflow: hidden;
 }
 
@@ -220,7 +220,7 @@ a:hover {
     top: 50%;
     transform: translateY(-50%);
     font-size: 2rem;
-    color: #ffffff;
+    color: #F5F5F7;
     cursor: pointer;
 }
 
