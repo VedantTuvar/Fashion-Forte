@@ -283,3 +283,146 @@ a:hover {
         right: 10px;
     }
 }
+
+/* Categories */
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #F5F5F7;
+}
+
+.box {
+    height: 470px;
+    width: 23%;
+    background-color: #FFFFFF;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box-image {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content h2 {
+    font-size: 30px;
+    color: #1d1d1f;
+    padding: 10px 0 7px 13px;
+}
+
+.box-image p {
+    color: #007185;
+}
+
+.box-content button {
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1d1d1f;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin: 10px 0 7px 13px;
+}
+
+.box-content button:hover {
+    background-color: #454545;
+    transition: 0.2s ease-in;
+}
+
+.box-content button i {
+    margin-left: 2px;
+}
+
+@media (max-width: 1200px) {
+    .box {
+        width: 45%;
+        height: auto;
+    }
+
+    .box-image {
+        height: 284px;
+    }
+
+    .box-content h2 {
+        font-size: 26px;
+    }
+
+    .box-content button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .box {
+        width: 44%;
+        height: auto;
+    }
+
+    .box-image {
+        height: 226px;
+    }
+
+    .box-content h2 {
+        font-size: 30px;
+    }
+
+    .box-content button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 90%;
+        height: auto;
+        margin: 15px 0;
+    }
+
+    .box-image {
+        height: 360px;
+    }
+
+    .box-content h2 {
+        font-size: 24px;
+    }
+
+    .box-content button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .box-content h2 {
+        font-size: 22px;
+    }
+
+    .box-content button {
+        font-size: 16px;
+    }
+
+    .box-image {
+        width: 308px;
+        height: 200px;
+    }
+}
