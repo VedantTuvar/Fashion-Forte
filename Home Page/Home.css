@@ -294,7 +294,7 @@ a:hover {
 }
 
 .box {
-    height: 470px;
+    height: 480px;
     width: 23%;
     background-color: #FFFFFF;
     padding: 20px 0px 15px;
@@ -335,7 +335,7 @@ a:hover {
 }
 
 .box-content button {
-    padding: 7px;
+    padding: 12px;
     font-size: 18px;
     border-radius: 8px;
     border: none;
@@ -424,5 +424,40 @@ a:hover {
     .box-image {
         width: 308px;
         height: 200px;
+    }
+}
+
+/* Discount Message */
+
+.container {
+    height: 50px;
+    background-color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container h3 strong {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container h3 {
+        font-size: 18px;
+        margin: 23px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container h3 {
+        font-size: 16px;
+        margin: 23px;
     }
 }
