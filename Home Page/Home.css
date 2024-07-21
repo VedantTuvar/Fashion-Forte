@@ -348,6 +348,7 @@ a:hover {
 .box-content button:hover {
     background-color: #454545;
     transition: 0.2s ease-in;
+    cursor: pointer;
 }
 
 .box-content button i {
