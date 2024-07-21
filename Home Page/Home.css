@@ -582,3 +582,27 @@ a:hover {
         margin: 15px 0;
     }
 }
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-item img {
+    width: 50px;
+    /* Adjust size as needed */
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.feature-item p {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
