@@ -485,6 +485,9 @@ a:hover {
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .product-card:hover {
@@ -494,13 +497,20 @@ a:hover {
 
 .product-image {
     width: 100%;
-    height: auto;
+    height: 300px;
+    /* Set a fixed height for the images */
+    object-fit: cover;
     border-radius: 10px;
 }
 
 .product-details {
     text-align: center;
     padding: 10px 0;
+    flex: 1;
+    /* Allow the product details to grow and fill space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .product-details h2 {
