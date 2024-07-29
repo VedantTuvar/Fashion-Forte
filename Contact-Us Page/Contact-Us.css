@@ -210,6 +210,7 @@ a:hover {
     font-weight: 300;
     color: #1d1d1f;
     margin-top: 10px;
+    font-size: 19px;
 }
 
 .container {
@@ -245,13 +246,14 @@ a:hover {
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
-    color: #1d1d1f;
+    background-color: #1d1d1f;
+    color: #ffffff;
 }
 
 .container .contactInfo .box .text {
     display: flex;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 18px;
     color: #1d1d1f;
     flex-direction: column;
     font-weight: 300;
@@ -261,6 +263,8 @@ a:hover {
     font-weight: 500;
     color: #000;
     font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 8px;
 }
 
 .contactForm {
@@ -362,8 +366,8 @@ a:hover {
     }
 
     .contact .content p {
-        font-size: 22px;
-        margin: 12px;
+        font-size: 21px;
+        margin: 14px;
     }
 
     .contactForm h2 {
