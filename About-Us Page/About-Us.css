@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #454545;
+    color: #ffffff;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #F5F5F7;
+}
+
+/* Navbar */
+
+nav {
+    background: #F5F5F7;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+label.logo {
+    color: #000000;
+    font-size: 37px;
+    line-height: 80px;
+    padding: 0 70px;
+}
+
+label.logo img {
+    height: 72px;
+    margin-top: 3px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #1d1d1f;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #515152;
+    transition: 0.1s ease-in;
+    text-decoration: none;
+}
+
+.checkbtn {
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    margin-top: 7px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.menu {
+    height: 2rem;
+    width: 2rem;
+}
+
+.log-butt {
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #1d1d1f;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.log-butt:hover {
+    background-color: #454545;
+    transition: 0.2s ease-in;
+}
+
+.log-butt a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        padding-left: 23px;
+    }
+
+    label.logo img {
+        height: 4rem;
+        width: 9rem;
+        margin-top: 7px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .log-butt {
+        height: 2rem;
+        width: 4.2rem;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 15rem;
+        height: 100vh;
+        background-color: #f0f0f0;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: 0.5s all;
+        z-index: 999;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.check {
+        background: none;
+        color: black;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .log-butt {
+        margin-left: 0rem;
+        height: 3rem;
+        width: 5rem;
+        font-weight: bold;
+        font-size: 21px;
+        background-color: #1d1d1f;
+        color: #ffffff;
+    }
+
+    .log-butt:hover {
+        background-color: #515152;
+        color: #ffffff;
+    }
+}
+
+/* About-Us Page */
+
+.container {
+    max-width: 75rem;
+    margin: 6rem auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 2rem;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    max-width: 15rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.9em;
+    color: #1d1d1f;
+    margin-top: 2.2rem;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.6em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 22px;
+    color: #1d1d1f;
+}
+
+strong {
+    font-size: 22px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('bullet.png') no-repeat left center;
+    padding-left: 20px;
+    margin-bottom: 18px;
+    font-size: 22px;
+    color: #1d1d1f;
+}
+
+a {
+    color: #004085;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 95%;
+        margin: 20px auto;
+        margin-top: 6rem;
+    }
+
+    h1 {
+        font-size: 2.8em;
+        margin-top: 1.8rem;
+        margin-bottom: 1em;
+    }
+
+    h2 {
+        font-size: 2.2em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    p,
+    ul li {
+        font-size: 30px;
+    }
+
+    .logo {
+        height: 8rem;
+        width: 15rem;
+    }
+
+    nav ul {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 15px;
+        margin-top: 6rem;
+    }
+
+    h1 {
+        font-size: 2.6em;
+        margin-top: 1.5rem;
+        margin-bottom: 0.8em;
+    }
+
+    h2 {
+        font-size: 2.4em;
+    }
+
+    h3 {
+        font-size: 2.4em;
+    }
+
+    p,
+    ul li {
+        font-size: 26px;
+    }
+
+    .logo {
+        height: 7rem;
+        width: 16rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 89%;
+        padding: 16px;
+        margin-top: 6rem;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-top: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p,
+    ul li {
+        font-size: 22px;
+    }
+
+    .logo {
+        height: 5.5rem;
+        width: 12.5rem;
+    }
+}
