@@ -7,7 +7,7 @@
     <title>Login | Fashion Forte</title>
     <link rel="stylesheet" href="Log-In.css">
     <link rel="icon" type="image/x-icon" sizes="16x16" href="/Home Page/Favicon.ico">
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -36,15 +36,16 @@
     <div class="container">
         <div class="forms-container">
             <div class="signin-signup">
-                <form action="#" class="sign-in-form">
+                <form action="/Home Page/Home.html" class="sign-in-form">
                     <h2 class="title">Log In</h2>
                     <div class="input-field">
-                        <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username" />
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" placeholder="Email" required />
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" />
+                        <input type="password" placeholder="Password" required />
+                        <i class="fas fa-eye-slash" id="toggle-password"></i>
                     </div>
                     <input type="submit" value="Login" class="btn solid" />
                     <p class="social-text">Or Sign in with social platforms</p>
@@ -63,19 +64,20 @@
                         </a>
                     </div>
                 </form>
-                <form action="#" class="sign-up-form">
+                <form action="/Log-In Page/Log-In.html" class="sign-up-form">
                     <h2 class="title">Sign Up</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username" />
+                        <input type="text" placeholder="Username" required />
                     </div>
                     <div class="input-field">
                         <i class="fas fa-envelope"></i>
-                        <input type="email" placeholder="Email" />
+                        <input type="email" placeholder="Email" required />
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" />
+                        <input type="password" placeholder="Password" required />
+                        <i class="fas fa-eye-slash" id="toggle-password"></i>
                     </div>
                     <input type="submit" class="btn" value="Sign up" />
                     <p class="social-text">Or Sign up with social platforms</p>
