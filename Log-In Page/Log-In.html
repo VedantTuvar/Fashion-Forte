@@ -2,16 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login | Fashion Forte</title>
-    <link rel="stylesheet" href="Log-In.css">
-    <link rel="icon" type="image/x-icon" sizes="16x16" href="/Home Page/Favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Log-In.css" />
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="/Home Page/Favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-
     <!-- Navbar -->
 
     <nav>
@@ -20,14 +21,16 @@
             <img class="menu" src="/SVGs/bars.svg" alt="Menu Icon" />
         </label>
         <label class="logo">
-            <img src="/Home Page/Fashion Forte Logo.png" alt="Website Logo">
+            <img src="/Home Page/Fashion Forte Logo.png" alt="Website Logo" />
         </label>
         <ul>
             <li><a href="/Home Page/Home.html">Home</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="/Contact-Us Page/Contact-Us.html">Contact</a></li>
             <li><a href="/About-Us Page/About-Us.html">About</a></li>
-            <button class="log-butt"><a href="/Log-In Page/Log-In.html">Login</a></button>
+            <button class="log-butt">
+                <a href="/Log-In Page/Log-In.html">Login</a>
+            </button>
         </ul>
     </nav>
 
@@ -44,8 +47,8 @@
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" required />
-                        <i class="fas fa-eye-slash" id="toggle-password"></i>
+                        <input type="password" id="login-password" placeholder="Password" required />
+                        <i class="fas fa-eye-slash" id="toggle-login-password"></i>
                     </div>
                     <input type="submit" value="Login" class="btn solid" />
                     <p class="social-text">Or Sign in with social platforms</p>
@@ -76,8 +79,8 @@
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" required />
-                        <i class="fas fa-eye-slash" id="toggle-password"></i>
+                        <input type="password" id="signup-password" placeholder="Password" required />
+                        <i class="fas fa-eye-slash" id="toggle-signup-password"></i>
                     </div>
                     <input type="submit" class="btn" value="Sign up" />
                     <p class="social-text">Or Sign up with social platforms</p>
@@ -106,21 +109,15 @@
                     <p>
                         Register with your personal details to use all of site features
                     </p>
-                    <button class="btn transparent" id="sign-up-btn">
-                        Sign up
-                    </button>
+                    <button class="btn transparent" id="sign-up-btn">Sign up</button>
                 </div>
                 <img src="img/log.svg" class="image" alt="" />
             </div>
             <div class="panel right-panel">
                 <div class="content">
                     <h3>Welcome Back!</h3>
-                    <p>
-                        Enter your personal details to use all of site features
-                    </p>
-                    <button class="btn transparent" id="sign-in-btn">
-                        Log In
-                    </button>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="btn transparent" id="sign-in-btn">Log In</button>
                 </div>
                 <img src="img/register.svg" class="image" alt="" />
             </div>
