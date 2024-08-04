@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   addToBagButtons.forEach((button) => {
     button.addEventListener("click", function () {
-      alert("Item added to cart");
+      alert("Item Added to Bag");
     });
   });
 });
