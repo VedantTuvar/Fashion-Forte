@@ -62,7 +62,7 @@ nav ul li a {
 }
 
 a:hover {
-    color: #515152;
+    color: #454545;
     transition: 0.1s ease-in;
     text-decoration: none;
 }
