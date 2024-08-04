@@ -1,11 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Get all add-to-bag buttons
   const addToBagButtons = document.querySelectorAll(".add-to-bag");
 
-  // Add event listener to each button
   addToBagButtons.forEach((button) => {
     button.addEventListener("click", function () {
       alert("Item added to cart");
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const addToBagButtons = document.querySelectorAll(".add-to-bag");
+
+  addToBagButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      button.textContent = "✔ Added to Bag";
+      button.classList.add("added-to-bag");
+      button.disabled = true;
+    });
+  });
+});
+
