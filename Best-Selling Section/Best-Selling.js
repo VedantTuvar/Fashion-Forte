@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   addToBagButtons.forEach((button) => {
     button.addEventListener("click", function () {
-      button.textContent = "✔ Added to Bag";
+      button.textContent = "✔ Added";
       button.classList.add("added-to-bag");
       button.disabled = true;
     });
