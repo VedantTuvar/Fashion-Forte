@@ -353,8 +353,19 @@ h1 {
 
 @media (max-width: 768px) {
     .product-card {
-        width: 90%;
+        width: 45%;
         margin: 15px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .product-card {
+        width: 86%;
+        margin: 15px 0;
+    }
+
+    .menu-bar {
+        display: none;
     }
 }
 
