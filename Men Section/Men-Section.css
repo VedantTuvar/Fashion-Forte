@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #454545;
+    color: #ffffff;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #F5F5F7;
+}
+
+/* Navbar */
+
+nav {
+    background: #F5F5F7;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+label.logo {
+    color: #000000;
+    font-size: 37px;
+    line-height: 80px;
+    padding: 0 70px;
+}
+
+label.logo img {
+    height: 72px;
+    margin-top: 10px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #1d1d1f;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #515152;
+    transition: 0.1s ease-in;
+    text-decoration: none;
+}
+
+.checkbtn {
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    margin-top: 7px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.menu {
+    height: 2rem;
+    width: 2rem;
+}
+
+.log-butt {
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #1d1d1f;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.log-butt:hover {
+    background-color: #454545;
+    transition: 0.2s ease-in;
+}
+
+.log-butt a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        padding-left: 23px;
+    }
+
+    label.logo img {
+        height: 4rem;
+        width: 9rem;
+        margin-top: 7px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .log-butt {
+        height: 2rem;
+        width: 4.2rem;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 15rem;
+        height: 100vh;
+        background-color: #f0f0f0;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: 0.5s all;
+        z-index: 999;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.check {
+        background: none;
+        color: black;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .log-butt {
+        margin-left: 0rem;
+        height: 3rem;
+        width: 5rem;
+        font-weight: bold;
+        font-size: 21px;
+        background-color: #1d1d1f;
+        color: #ffffff;
+    }
+
+    .log-butt:hover {
+        background-color: #454545;
+        color: #ffffff;
+    }
+}
+
+/* Category Bar */
+
+.menu-bar {
+    background: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-bar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.menu-bar ul li {
+    list-style: none;
+}
+
+.menu-bar ul li a {
+    color: #1d1d1f;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    font-weight: bold;
+}
+
+.menu-bar ul li a:hover {
+    color: #454545;
+    transition: 0.1s ease-in;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #1d1d1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 30px 0;
+    font-size: 2.5rem;
+}
+
+/* Best-Seller Section Cards */
+
+.top-selling-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #F5F5F7;
+}
+
+.product-card {
+    width: 23%;
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-details {
+    text-align: center;
+    padding: 10px 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-details h2 {
+    font-size: 28px;
+    color: #1d1d1f;
+    margin: 10px 0;
+}
+
+.product-details p {
+    font-size: 17px;
+    color: #7d7d7d;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #7d7d7d;
+    font-size: 20px;
+}
+
+.discounted-price {
+    font-size: 20px;
+    color: #1d1d1f;
+}
+
+.discount {
+    font-size: 19px;
+    color: #d9534f;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.rating span {
+    font-size: 20px;
+    color: #f00;
+    margin-right: 5px;
+}
+
+.add-to-bag {
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1d1d1f;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-to-bag:hover {
+    background-color: #454545;
+    transition: 0.2s ease-in;
+}
+
+@media (max-width: 1200px) {
+    .product-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 992px) {
+    .product-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        width: 45%;
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .product-card {
+        width: 86%;
+        margin: 15px 0;
+    }
+
+    .menu-bar {
+        display: none;
+    }
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-item img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.feature-item p {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
