@@ -16,7 +16,6 @@
   - [Installation](#installation)
 - [Usage](#usage)
 - [Join Us](#join-us)
-- [Contact Us](#contact-us)
 
 ## About
 
