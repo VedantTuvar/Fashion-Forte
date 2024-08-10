@@ -20,7 +20,7 @@
 
 ## About
 
-Fashion Forte aims to redefine fashion by offering unique, high-quality clothing that not only looks good but also feels good. We believe in the power of conscious consumerism and aim to create a collection that benefits both our customers and the planet.
+**Fashion Forte** aims to redefine fashion by offering unique, high-quality clothing that not only looks good but also feels good. We believe in the power of conscious consumerism and aim to create a collection that benefits both our customers and the planet.
 
 ## Features
 
@@ -32,20 +32,20 @@ Fashion Forte aims to redefine fashion by offering unique, high-quality clothing
 ## Collection
 
 ### Men's Wear
-Discover our range of men's fashion, including versatile shirts, trousers, jackets, and more. Our pieces are tailored for both comfort and sophistication.
+Discover our range of Men's fashion, including versatile shirts, trousers, jackets, and more. Our pieces are tailored for both comfort and sophistication.
 
 ### Women's Wear
-Explore our curated selection of women's clothing, featuring stylish dresses, tops, bottoms, and outerwear that blend contemporary trends with timeless elegance.
+Explore our curated selection of Women's clothing, featuring stylish dresses, tops, bottoms, and outerwear that blend contemporary trends with timeless elegance.
 
 ### Kids' Wear
-Check out our delightful collection of kids' clothing, designed with both style and comfort in mind, from playful everyday outfits to special occasion wear.
+Check out our delightful collection of Kids clothing, designed with both style and comfort in mind, from playful everyday outfits to special occasion wear.
 
 ## Why Choose Us?
 
-- *Sustainable Fashion*: We commit to sustainability, using eco-friendly materials and ethical production methods.
-- *Quality Craftsmanship*: Our collection is crafted with attention to detail, ensuring long-lasting satisfaction.
-- *Unique Designs*: Stand out with exclusive designs that express your individuality.
-- *Customer Satisfaction*: Enjoy excellent customer service and a hassle-free shopping experience.
+- **Sustainable Fashion**: We commit to sustainability, using eco-friendly materials and ethical production methods.
+- **Quality Craftsmanship**: Our collection is crafted with attention to detail, ensuring long-lasting satisfaction.
+- **Unique Designs**: Stand out with exclusive designs that express your individuality.
+- **Customer Satisfaction**: Enjoy excellent customer service and a hassle-free shopping experience.
 
 ## Getting Started
 
@@ -70,8 +70,8 @@ Fashion Forte is a web-based platform, so no installation is required. Simply vi
 
 Become a part of the Fashion Forte family and stay updated with the latest trends, exclusive offers, and more. Follow us on social media and subscribe to our newsletter for fashion inspiration and updates.
 
-## Contact Us
+<!-- ## Contact Us
 
 - *Phone*: +91 93136 02304
 - *Email*: [support@fashionforte.com](mailto:support@fashionforte.com)
-- *Website*: [www.fashion-forte.com](https://www.fashion-forte.com)
+- *Website*: [www.fashion-forte.com](https://www.fashion-forte.com) -->
