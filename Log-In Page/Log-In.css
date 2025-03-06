@@ -236,7 +236,7 @@ form.sign-in-form {
 
 .title {
     font-size: 2.4rem;
-    color: #444;
+    color: #05664f;
     margin-bottom: 10px;
 }
 
@@ -254,7 +254,7 @@ form.sign-in-form {
 }
 
 .input-field i {
-    color: #acacac;
+    color: #05664f;
     font-size: 1.1rem;
     margin-right: 10px;
 }
@@ -276,7 +276,7 @@ form.sign-in-form {
 }
 
 .input-field .fa-eye-slash {
-    color: #acacac;
+    color: #05664f;
     font-size: 1.1rem;
     cursor: pointer;
     position: absolute;
@@ -287,6 +287,7 @@ form.sign-in-form {
 .social-text {
     padding: 0.7rem 0;
     font-size: 1.2rem;
+    color: #05664f;
 }
 
 .social-media {
@@ -301,9 +302,9 @@ form.sign-in-form {
     justify-content: center;
     align-items: center;
     margin: 0 0.45rem;
-    color: #333;
+    color: #05664f;
     border-radius: 50%;
-    border: 1px solid #333;
+    border: 1px solid #05664f;
     text-decoration: none;
     font-size: 1.1rem;
     transition: 0.3s;
@@ -316,7 +317,7 @@ form.sign-in-form {
 
 .btn {
     width: 150px;
-    background-color: #1D1D1F;
+    background-color: #05664f;
     border: none;
     outline: none;
     height: 49px;
@@ -352,7 +353,8 @@ form.sign-in-form {
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
-    background: linear-gradient(90deg, rgba(69, 69, 69, 1) 14%, rgba(51, 51, 51, 1) 57%);
+    background: rgb(5, 102, 79);
+    background: linear-gradient(149deg, rgba(5, 102, 79, 1) 14%, rgba(9, 133, 103, 1) 73%);
     transition: 1.8s ease-in-out;
     border-radius: 50%;
     z-index: 6;
